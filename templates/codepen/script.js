@@ -1,1 +1,1 @@
-console.info('Hello World!')
+// 404

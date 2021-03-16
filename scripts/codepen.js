@@ -17,7 +17,6 @@ if (!test('-e', DESTINATION)) {
   for (const temp of TEMPLATES) {
     let content = await compileTemplate(`codepen/${temp}`, { name: penName })
     await writeFile(`${DESTINATION}/${temp}`, content)
-    await writeFile(`${DESTINATION}/${temp}`, content)
   }
 }
 // The files are there. Open them up!
