@@ -1,6 +1,7 @@
 {
   "type": "module",
   "dependencies": {
+    "@jh3y/og-generator": "^0.0.3",
     "color": "^3.1.3"
   }
 }

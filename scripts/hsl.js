@@ -3,24 +3,36 @@
 // Author: Jhey Tompkins
 // Twitter: @jh3yy
 
-let { setSelectedText } = await kit('text')
-const Color = await npm('color')
+let { setSelectedText } = await kit("text")
+const Color = await npm("color")
 
-const stringColor = await arg('Color String:', (input) => {
+const createHTML = color =>
+  `<div class="h-full text-xs flex justify-center items-center" style="background-color: ${color}"><span class="p-2">${
+    color || ""
+  }</span></div>`
+
+const createChoices = (input, value) => {
+  console.info(input, value)
+  return [
+    {
+      name: value,
+      value: value,
+      //I renamed "info" to "html"
+      html: createHTML(input),
+    },
+  ]
+}
+
+const hslArray = await arg("Color String:", input => {
+  let hsl = input
   try {
-    const value = Color(input).hsl() || input
-    return [
-      {
-        name: `hsl: ${value}`,
-        value,
-        info: `<div style="background-color: ${input} height: 100px;
-        width: 100px;">${input}</div>`,
-      },
-    ]
-  } catch (err) {
-    console.error(err)
+    hsl = Color(input).hsl()
+  } catch {
+    //catch error and return whatever
+    return createChoices(input, "Invalid color")
   }
-  return []
+  //The HSL lib was returning an object with a "color" prop as an Array
+  return createChoices(input, hsl.toString())
 })
 
-setSelectedText(stringColor)
+setSelectedText(hslArray)
