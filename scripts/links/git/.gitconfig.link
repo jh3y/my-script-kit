@@ -1,0 +1,13 @@
+# Simple gitconfig
+#
+[init]
+  defaultBranch = main
+[user]
+  name = jh3y
+  email = jh3y@users.noreply.github.com
+[credential]
+  helper = osxkeychain
+[core]
+  excludesfile = ~/.gitignore
+[push]
+  default = simple

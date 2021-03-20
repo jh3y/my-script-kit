@@ -1,0 +1,139 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 12,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.wordWrapColumn": 80,
+  "editor.cursorBlinking": "expand",
+  "editor.fontLigatures": true,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "boundary",
+  "emojisense.emojiDecoratorsEnabled": true,
+  "emojisense.markupCompletionsEnabled": true,
+  "emojisense.unicodeCompletionsEnabled": true,
+  "emojisense.showOnColon": true,
+  "emojisense.languages": {
+    "markdown": true,
+    "javascript": true,
+    "jade": true,
+    "html": true,
+    "makefile": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "git-commit": true
+  },
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "files.trimTrailingWhitespace": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "atomKeymap.promptV3Features": true,
+  "prettier.parser": "flow",
+  "prettier.semi": false,
+  "prettier.printWidth": 80,
+  "prettier.trailingComma": "es5",
+  "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.rendererType": "dom",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "workbench.colorTheme": "Night Owl",
+  // Egghead.io screencasting settings
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 20,
+  "terminal.integrated.fontSize": 20,
+  "workbench.activityBar.visible": false,
+  "editor.quickSuggestions": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": false,
+  "editor.quickSuggestionsDelay": 1000000,
+  "editor.parameterHints.enabled": false,
+  "workbench.statusBar.visible": false,
+}

@@ -1,0 +1,20 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+*.swp
+# Icon must end with two \r
+Icon
+#Node
+node_modules
+#Thumbnails
+._*
+#External disk
+.Spotlight-V100
+.Trashes
+#Remote App Share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
