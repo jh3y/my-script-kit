@@ -54,3 +54,6 @@ if (files.length) {
 const vsBase = `${$HOME}/Library/Application Support/Code/User`
 ln('-sf', `${$HOME}/.kenv/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)
 ln('-sf', `${$HOME}/.kenv/scripts/links/vscode/settings.json`, `${vsBase}/settings.json`)
+// Symlink Spectacle settings
+const specsBase = `${$HOME}/Library/Application Support/Spectacle`
+ln('-sf', `${$HOME}/.kenv/scripts/links/spectacle/Shortcuts.json`, `${specsBase}/Shortcuts.json`)
