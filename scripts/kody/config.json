@@ -13,7 +13,6 @@
     "elgato-stream-deck",
     "figma",
     "firefox",
-    "font-fira-mono-for-powerline",
     "homebrew/cask-fonts/font-jetbrains-mono",
     "google-backup-and-sync",
     "google-chrome",
@@ -25,11 +24,10 @@
     "screenflow",
     "spectacle",
     "spotify",
-    "svn",
     "visual-studio-code",
     "vlc",
     "homebrew/cask-drivers/yubico-authenticator",
-    "zoomus"
+    "zoom"
   ],
   "extensions": [
     "aaron-bond.better-comments",
