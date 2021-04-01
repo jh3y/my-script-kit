@@ -103,3 +103,13 @@ dist
 # TernJS port file
 .tern-port
 .history
+
+# Things I don't need?
+cache
+app
+lib
+bin
+db
+tmp
+kit
+.kit
