@@ -1,4 +1,5 @@
-const $HOME = exec('echo $HOME', { silent: true }).trim()
+// const $HOME = exec('echo $HOME', { silent: true }).trim()
+const $HOME = home()
 
 const PROPS = {
     FILE_REGEXP: /\.link$/,
@@ -34,7 +35,7 @@ const symlinkDotfile = (source, dest, backup) => {
     }
 }
 
-const ROOT = `${$HOME}/.kenv/scripts/links`
+const ROOT = `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links`
 const files = await ls('-AR', ROOT).filter(f => f.match(PROPS.FILE_REGEXP))
 
 if (files.length) {
@@ -52,8 +53,8 @@ if (files.length) {
 
 // Symlink VSCode settings
 const vsBase = `${$HOME}/Library/Application Support/Code/User`
-ln('-sf', `${$HOME}/.kenv/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)
-ln('-sf', `${$HOME}/.kenv/scripts/links/vscode/settings.json`, `${vsBase}/settings.json`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/settings.json`, `${vsBase}/settings.json`)
 // Symlink Spectacle settings
 const specsBase = `${$HOME}/Library/Application Support/Spectacle`
-ln('-sf', `${$HOME}/.kenv/scripts/links/spectacle/Shortcuts.json`, `${specsBase}/Shortcuts.json`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/spectacle/Shortcuts.json`, `${specsBase}/Shortcuts.json`)

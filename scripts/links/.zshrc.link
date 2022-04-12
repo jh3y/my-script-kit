@@ -1,3 +1,7 @@
+# Fig pre block. Keep at the top of this file.
+export PATH="${PATH}:${HOME}/.local/bin"
+eval "$(fig init zsh pre)"
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.kenv/bin
 
@@ -163,7 +167,7 @@ alias vpnfix='sudo ~/vpn-fix/vpn-fix ~/vpn-fix/whitelist.txt'
 DEFAULT_USER=$USER
 prompt_context(){}
 
-source /usr/local/share/antigen/antigen.zsh
+source /opt/homebrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh library
 antigen use oh-my-zsh
@@ -182,3 +186,7 @@ antigen apply
 
 echo Hey jh3y! 👋
 echo Time to write some code 👍
+
+# Fig post block. Keep at the bottom of this file.
+eval "$(fig init zsh post)"
+
