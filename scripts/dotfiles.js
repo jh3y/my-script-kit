@@ -51,6 +51,12 @@ if (files.length) {
     }
 }
 
+// Symlink Sublime Text settings
+const sublimeBase = `${$HOME}/Library/Application Support/Sublime Text/Packages/User`
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Default (OSX).sublime-keymap`, `${sublimeBase}/Default (OSX).sublime-keymap`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Emmet.sublime-settings`, `${sublimeBase}/Emmet.sublime-settings`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Package Control.sublime-settings`, `${sublimeBase}/Package Control.sublime-settings`)
+ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Preferences.sublime-settings`, `${sublimeBase}/Preferences.sublime-settings`)
 // Symlink VSCode settings
 const vsBase = `${$HOME}/Library/Application Support/Code/User`
 ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)

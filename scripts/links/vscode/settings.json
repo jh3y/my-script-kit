@@ -6,7 +6,6 @@
   "editor.wordWrapColumn": 80,
   "editor.cursorBlinking": "expand",
   "editor.fontLigatures": true,
-  "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
   "emojisense.emojiDecoratorsEnabled": true,
   "emojisense.markupCompletionsEnabled": true,
@@ -131,7 +130,11 @@
   "editor.fontSize": 20,
   "terminal.integrated.fontSize": 20,
   "workbench.activityBar.visible": false,
-  "editor.quickSuggestions": false,
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
   "editor.suggestOnTriggerCharacters": false,
   "editor.wordBasedSuggestions": false,
   "editor.quickSuggestionsDelay": 1000000,
@@ -140,4 +143,5 @@
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
+  "editor.guides.indentation": true,
 }

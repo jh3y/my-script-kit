@@ -1,9 +1,7 @@
 # Fig pre block. Keep at the top of this file.
-export PATH="${PATH}:${HOME}/.local/bin"
-eval "$(fig init zsh pre)"
-
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.kenv/bin
+# export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.kenv/bin
 
 # Path to your oh-my-zsh installation.
 # export ZSH="/Users/jhey/.oh-my-zsh"
@@ -187,6 +185,12 @@ antigen apply
 echo Hey jh3y! 👋
 echo Time to write some code 👍
 
-# Fig post block. Keep at the bottom of this file.
-eval "$(fig init zsh post)"
+# bun completions
+[ -s "/Users/jheyy/.bun/_bun" ] && source "/Users/jheyy/.bun/_bun"
 
+# Bun
+export BUN_INSTALL="/Users/jheyy/.bun"
+export PATH=$HOME/bin:/usr/local/bin:$PATH:$HOME/.kenv/bin:"$BUN_INSTALL/bin:$PATH"
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"

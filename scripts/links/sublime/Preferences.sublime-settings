@@ -1,0 +1,14 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"color_scheme": "Night Owl.sublime-color-scheme",
+	"theme": "auto",
+	"font_size": 13,
+	"font_face": "JetBrains Mono",
+	"show_rel_path": true,
+	"tab_size": 2,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

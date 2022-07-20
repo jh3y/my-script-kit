@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Emmet",
+		"FileIcons",
+		"JsPrettier",
+		"Night Owl",
+		"Package Control",
+		"Pug",
+		"Stylus",
+	],
+}
