@@ -57,10 +57,10 @@ ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Default (OSX
 ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Emmet.sublime-settings`, `${sublimeBase}/Emmet.sublime-settings`)
 ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Package Control.sublime-settings`, `${sublimeBase}/Package Control.sublime-settings`)
 ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/sublime/Preferences.sublime-settings`, `${sublimeBase}/Preferences.sublime-settings`)
-// Symlink VSCode settings
-const vsBase = `${$HOME}/Library/Application Support/Code/User`
-ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)
-ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/settings.json`, `${vsBase}/settings.json`)
 // Symlink Spectacle settings
 const specsBase = `${$HOME}/Library/Application Support/Spectacle`
 ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/spectacle/Shortcuts.json`, `${specsBase}/Shortcuts.json`)
+// Symlink VSCode settings
+// const vsBase = `${$HOME}/Library/Application Support/Code/User`
+// ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/keybindings.json`, `${vsBase}/keybindings.json`)
+// ln('-sf', `${$HOME}/.kenv/kenvs/my-script-kit/scripts/links/vscode/settings.json`, `${vsBase}/settings.json`)
