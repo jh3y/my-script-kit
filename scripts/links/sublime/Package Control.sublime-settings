@@ -5,12 +5,20 @@
 	],
 	"installed_packages":
 	[
+		"Astro",
 		"Emmet",
 		"FileIcons",
 		"JsPrettier",
+		"LSP",
+		"LSP-astro",
+		"LSP-tailwindcss",
+		"LSP-typescript",
+		"Markdown Extended",
+		"MDX",
 		"Night Owl",
 		"Package Control",
 		"Pug",
 		"Stylus",
+		"Tailwind CSS",
 	],
 }

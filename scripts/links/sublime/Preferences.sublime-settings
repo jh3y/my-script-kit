@@ -3,10 +3,13 @@
 {
 	"color_scheme": "Night Owl.sublime-color-scheme",
 	"theme": "auto",
-	"font_size": 13,
+	// "font_size": 20,
+	"font_size": 12,
 	"font_face": "JetBrains Mono",
 	"show_rel_path": true,
 	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"scroll_past_end": 0.95,
 	"ignored_packages":
 	[
 		"Vintage",

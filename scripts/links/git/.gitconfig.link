@@ -11,3 +11,5 @@
   excludesfile = ~/.gitignore
 [push]
   default = simple
+[http]
+	postBuffer = 524288000

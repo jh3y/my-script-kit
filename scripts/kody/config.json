@@ -1,21 +1,19 @@
 {
   "apps": [
-    "antigen",
-    "handbrake",
-    "mkcert",
-    "git",
-    "node",
-    "zsh",
     "android-file-transfer",
     "audacity",
     "bartender",
+    "beeper",
     "bitwarden",
+    "blackhole-2ch",
     "brave-browser",
     "caffeine",
     "calibre",
     "cheatsheet",
     "cleanshot",
+    "descript",
     "discord",
+    "docker",
     "dropzone",
     "elgato-camera-hub",
     "elgato-control-center",
@@ -23,14 +21,20 @@
     "fig",
     "figma",
     "firefox",
+    "firefox-nightly",
     "homebrew/cask-fonts/font-jetbrains-mono",
+    "google-chrome",
+    "google-chrome-canary",
     "google-drive",
+    "handbrake",
     "iterm2",
     "logitech-options",
     "logitech-presentation",
     "microsoft-edge",
     "notion",
+    "remarkable",
     "rive",
+    "safari-technology-preview",
     "screenflow",
     "sip",
     "slack",
@@ -42,7 +46,13 @@
     "sublime-text",
     "warp",
     "homebrew/cask-drivers/yubico-authenticator",
-    "zoom"
+    "zoom",
+    "antigen",
+    "ffmpeg",
+    "mkcert",
+    "git",
+    "node",
+    "zsh"
   ],
   "extensions": [
     "aaron-bond.better-comments",
@@ -77,5 +87,5 @@
     "yzhang.markdown-all-in-one",
     "Zignd.html-css-class-completion"
   ],
-  "npm": ["netlify-cli", "yarn"]
+  "npm": ["netlify-cli", "yarn", "vercel"]
 }
